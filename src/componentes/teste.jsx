@@ -1,7 +1,7 @@
-function ComponenteExemplo(props) {
+function ComponentePerfil(props) {
   return (
     <div className="minhaClasse">
-      <h1>EXEMPLO</h1>
+      <h1>PERFIL</h1>
       <div>
         <p>Nome: {props.nome} </p>
         <p>Idade: {props.idade} </p>
@@ -14,4 +14,4 @@ function ComponenteExemplo(props) {
   );
 }
 
-export { ComponenteExemplo };
+export { ComponentePerfil };
